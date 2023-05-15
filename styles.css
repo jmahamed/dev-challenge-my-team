@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+/* 
+font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    margin-top: 110px;
+    width: 935px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    width: 935px;
+    height: 87px;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+.team-row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+.team-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px;
+}
+
+.team-txt {
+    width: 439px;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.person img {
+    width: 238px;
+}
+
+.person div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.person div p {
+    transform: rotate(90deg);
+    margin-left: -20px;
+    margin-top: 40px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.person-2 {
+    margin-top: 99px;
+}
+
+.person-5 {
+    margin-top: 99px;
+}
+.name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 15px;
+}
